@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear Suku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Dear Suku</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#home"></a>Home</li>
+            <li><a href="#pages"></a>Pages</li>
+            <li><a href="#about"></a>About</li>
+            <li><a href="#explore"></a>Explore</li>
+            <li class="ctn"><a href="#contact"></a>Contact</li>
+        </ul>
+        <img src="img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore stories, ideas, and experiences straight from the heart.</h2>
+            <div class="line"></div>
+            <h1>Welcome to my blog – a place where thoughts meet creativity.</h1>
+            <a href="" class="ctn">Explore</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Social Media</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/insta.jpg" alt="">
+                <h4>Behind the Lens</h4>
+                <p>A sneak peek into my daily life, creative edits, and moments that matter. Follow along for stories,
+                    reels, and snapshots that speak louder than words.</p>
+                <a href="https://www.instagram.com/dearsuku._/?hl=en" class="ctn">Follow</a>
+            </div>
+            <div class="col">
+                <img src="img/yt.jpg" alt="">
+                <h4>The Creative Feed</h4>
+                <p>Quick peeks into my everyday life — raw, real, and sometimes just random! Watch fun shorts that
+                    capture little moments, daily vibes, and everything in between.</p>
+                <a href="https://www.youtube.com/@dearsuku08" class="ctn">Subscribe</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Just Sakshi Things</h1>
+            <div class="line"></div>
+            <p>I’m Sakshi Jhaa – a girl who finds beauty in the everyday and stories in small moments.
+                From capturing unfiltered reels to living life one smile at a time, I love turning ordinary days into
+                memories that stay.<br>
+                Here, it’s not just content — it’s a piece of me.<br>
+                Simple. Real. Aesthetic. Just the way I am.
+            </p>
+            <a href="#" class="ctn">Open</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Mini Moments, Big Vibes</h1>
+                <div class="line"></div>
+                <p>Every reel captures a moment I lived — simple days, real vibes, no filters. Through these short
+                    clips, I share bits of my everyday story, just the way it is. It’s not just video, it’s my life in
+                    motion.</p>
+                <a href="" class="ctn">More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img/img1.PNG" alt="">
+                    <img src="img/img2.PNG" alt="">
+                    <img src="img/img3.PNG" alt="">
+                    <img src="img/img4.PNG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Designed and developed with heart, soul, and pixels — by <a href="https://mritunjay-kr.github.io/My-Portfolio/">Prime MJ</a></p>
+        <p>Copyright &copy 2025 Dear Suku | Sakshi Jhaa</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        });
+    </script>
+</body>
+
+</html>
